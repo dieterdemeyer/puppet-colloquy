@@ -1,21 +1,16 @@
-# Template Puppet Module for Boxen
+# Colloquy Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Install [Colloquy](http://colloquy.info/index.html), an IRC client for Mac OS X.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include colloquy
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
